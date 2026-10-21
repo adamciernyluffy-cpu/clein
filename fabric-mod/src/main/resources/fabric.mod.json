@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "aether",
+  "version": "${version}",
+  "name": "Aether Client",
+  "description": "A configurable client-side utility mod with a glass-inspired ClickGUI.",
+  "authors": ["Aether Team"],
+  "contact": {
+    "homepage": "https://github.com/",
+    "sources": "https://github.com/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.aether.client.AetherClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
